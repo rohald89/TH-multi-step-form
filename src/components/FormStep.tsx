@@ -1,5 +1,3 @@
-import React from 'react';
-
 type FormStepProps = {
   field: string;
   updateFields: (fields: Partial<FormData>) => void;
