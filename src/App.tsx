@@ -27,6 +27,7 @@ function App() {
             key={i}
             field={property}
             {...data}
+            // @ts-ignore
             updateFields={handleInputChange}
           />
         );
